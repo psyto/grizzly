@@ -55,10 +55,11 @@ USDC Deposit --> Backpack Account
 | Chain | Solana | Hyperliquid L1 | Backpack Exchange |
 | Language | TypeScript | Python | Python |
 | Vault | Voltr / Ranger Earn | HL native vault | Direct account |
+| Execution | Dynamic tilted DN (SOL, BTC, ETH) | Tilted DN (HYPE) + directional | Directional (paper) |
 | Cross-venue | Drift vs Binance/Bybit | HL vs Binance/Bybit | **BP vs Drift vs HL** |
-| Unique edge | 5D signal detection | Zero-hash liquidation + funding pre-positioning | Three-DEX cross-intelligence |
-| Markets | SOL, BTC, ETH, DOGE, SUI, AVAX | BTC, ETH, SOL, HYPE | BTC, ETH, SOL, SUI, DOGE, HYPE |
-| Status | Live (mainnet) | Live (mainnet) | Paper trading |
+| Unique edge | Multi-asset DN + dynamic tilt + 5D signals | Zero-hash liquidation + funding pre-positioning | Three-DEX cross-intelligence |
+| Markets | SOL, BTC, ETH | BTC, ETH, SOL, HYPE | BTC, ETH, SOL, SUI, DOGE, HYPE |
+| Status | Live (mainnet, DN mode) | Live (mainnet, DN mode) | Paper trading |
 
 **Grizzly's unique edge:** Instead of comparing against CEX venues (Binance/Bybit) which are unavailable to Japanese residents, Grizzly compares across the three DEX venues the user already operates on. This creates a closed-loop cross-venue intelligence system where each vault informs the others.
 
@@ -151,7 +152,7 @@ Cross-venue funding (BP vs Drift vs HL):
 
 | Vault | Venue | Tagline |
 |-------|-------|---------|
-| **Yogi** | Drift (Solana) | "Smarter than the average bear market vault" |
+| **Yogi** | Drift (Solana) | Dynamic tilted DN + 5D signal detection |
 | **Kodiak** | Hyperliquid | "The biggest bear in the room" |
 | **Grizzly** | Backpack Exchange | "The fierce bear" |
 

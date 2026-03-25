@@ -189,7 +189,7 @@ Grizzly is the third member of the bear family:
 
 | Generation | Vault | Innovation |
 |------------|-------|------------|
-| 1st | Yogi (Drift) | 5D signal detection + regime engine |
+| 1st | Yogi (Drift) | Dynamic tilted DN + 5D signal detection + regime engine |
 | 2nd | Kodiak (Hyperliquid) | Zero-hash liquidation + funding pre-positioning + cross-venue (HL vs CEX) |
 | 3rd | Grizzly (Backpack) | Three-DEX cross-intelligence (BP vs Drift vs HL) |
 
