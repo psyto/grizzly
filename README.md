@@ -55,7 +55,7 @@ USDC Deposit --> Backpack Account
 | Chain | Solana | Hyperliquid L1 | Backpack Exchange |
 | Language | TypeScript | Python | Python |
 | Vault | Voltr / Ranger Earn | HL native vault | Direct account |
-| Execution | Dynamic tilted DN (SOL, BTC, ETH) | Tilted DN (HYPE) + directional | Directional (paper) |
+| Execution | Dynamic tilted DN (SOL, BTC, ETH) | Dynamic tilted DN (HYPE) + directional | Directional (paper) |
 | Cross-venue | Drift vs Binance/Bybit | HL vs Binance/Bybit | **BP vs Drift vs HL** |
 | Unique edge | Multi-asset DN + dynamic tilt + 5D signals | Zero-hash liquidation + funding pre-positioning | Three-DEX cross-intelligence |
 | Markets | SOL, BTC, ETH | BTC, ETH, SOL, HYPE | BTC, ETH, SOL, SUI, DOGE, HYPE |
